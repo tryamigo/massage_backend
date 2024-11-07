@@ -25,7 +25,7 @@ const io = new Server(server, {
 const pool = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "Adarsh123@",
+  password: "123456",
   database: "chat_db",
   connectionLimit: 10,
 });
